@@ -1,0 +1,93 @@
+5. Financial Feasibility
+In this section, we investigate whether the proposed system can be implemented and run for a reasonable cost. Two scenarios will be considered. First, the student prototype to be developed during the semester. Second, a small-scale university pilot, running for one year.
+The cash cost of the prototype should be relatively low as the team members have laptops available to them with Internet connectivity. GitHub Free can be used to host private repositories at no cost per month [6]. Supabase Free can also be used for the prototype, as it allows for a 500 MB database and 1 GB of file storage at the moment [7]. This should be enough to hold the sample data needed for the project.
+The team can be expected to use open-source or university-hosted software wherever possible. Some budget will be left for experimenting with external AI, e.g., the cost of the text-embedding-3-small model is listed at USD 0.02 per one million tokens [8]. This would make the cost of conducting simple semantic-matching experiments relatively low; however, a spending ceiling will still be imposed, as the natural-language assistant and AI report generation might involve extra costs in terms of API calls.
+All figures in this section are given in dirhams. The figures in US dollars were converted using the exchange rate of USD 1 = AED 3.6725, published by the Central Bank of the UAE [6].
+
+5.1 Estimated Project Costs
+Table 5.1
+ Estimated Prototype and First-Year Pilot Costs
+Cost item
+Prototype cost (AED)
+First-year pilot cost (AED)
+Basis of estimate
+Existing laptops and internet access
+0
+0
+The team will use resources already available
+GitHub repository
+0
+0
+GitHub Free plan
+Development software
+0
+0
+Open-source or university-provided tools
+Database and hosting
+0
+1,102
+Free plan for the prototype; USD 25 per month for a one-year Supabase Pro pilot
+AI-service usage
+50
+600
+Estimated spending allowance with a fixed usage limit
+Initial setup and user training
+0
+3,000
+Assumption: 30 staff hours at AED 100 per hour
+Support and maintenance
+0
+6,000
+Assumption: 60 staff hours at AED 100 per hour
+Contingency allowance
+50
+1,070
+Approximately 10% of the estimated pilot cost
+Total estimated cost
+100
+11,772
+Rounded to the nearest dirham
+
+Source: Cost figures were developed by the project team using the published prices of GitHub [6], Supabase [7], OpenAI [8], and the exchange rate published by the Central Bank of the UAE [9]. Staff hours and usage amounts are planning assumptions.
+
+The prototype is expected to cost around AED 100. The student workforce does not count toward cash expenses, as participation is part of the educational program. The hours contributed by the three students, however, are considered in the schedule analysis in Section 7.
+The first-year pilot is estimated to cost AED 11,772. This includes hosting, limited AI usage, initial training, technical support, maintenance, and a contingency allowance. The figure does not reflect an approved university budget. The actual cash needs would have to be 
+negotiated with the university’s IT, finance, and procurement departments prior to deployment.
+
+5.2 Estimated Financial Benefit
+
+The main financial benefits of the system would come from reducing unnecessary purchases. When one department requires an item, the system may find a suitable asset that is no longer needed by another department.
+
+Because the team does not have access to actual university purchasing records, the following calculation is based on planning assumptions. This example illustrates how the financial benefit might be calculated rather than a value that has already been realized.
+For the first year's pilot, it is assumed that the system enables the university to reuse 10 assets. The average replacement cost is assumed to be AED 2,500 for each asset. An average repair cost of AED 250 and an average transfer cost of AED 100 are calculated for each reused asset.
+Avoided purchase cost
+10 assets × AED 2,500 = AED 25,000
+Repair cost
+10 assets × AED 250 = AED 2,500
+Transfer cost
+10 assets × AED 100 = AED 1,000
+Net reuse saving
+Net reuse saving = Avoided purchase cost − Repair and transfer costs
+AED 25,000 − (AED 2,500 + AED 1,000) = AED 21,500
+The estimated net reuse saving for the first year is equal to AED 21,500. Repair and transfer costs are subtracted from the financial benefit because they are not added back into the system cost table to avoid the same costs being counted twice.
+5.3 Return on Investment
+ROI formula
+ROI = [(Total benefits − Total project cost) ÷ Total project cost] × 100
+Using the values estimated for the one-year pilot:
+ROI = [(AED 21,500 − AED 11,772) ÷ AED 11,772] × 100
+ROI = 82.6%
+Under these assumptions, the university would receive the following estimated financial gain during the first year:
+AED 21,500 − AED 11,772 = AED 9,728
+The average net saving provided by each reused asset can also be calculated:
+AED 2,500 − AED 250 − AED 100 = AED 2,150 per asset
+The approximate break-even point is:
+AED 11,772 ÷ AED 2,150 = 5.48 assets
+As a result at least six similar assets would need to be reused during the year for the estimated savings to cover the pilot cost.
+
+
+
+5.4 Financial Feasibility Decision
+The prototype is financially feasible since most of the development tools needed for its creation can be used for free. The prototype’s estimated cash cost is only AED 100 due to using employees’ existing laptops, development tools, GitHub Free, and a free database plan.
+The one-year university pilot also seems to be financially feasible since the estimated net reuse saving of AED 21,500 is higher than the estimated pilot’s cost of AED 11,772, which yields an 82.6% ROI.
+
+Nevertheless, the figures are only the planning estimates that should be used as a basis for the pilot deployment. The final financial feasibility will depend on the number of assets that will be reused, their types, conditions, and values. Therefore, before university deployment, the calculation should be updated using the actual asset purchase prices, repair costs, transportation expenses, expected number of users, and quotations approved by the university.
